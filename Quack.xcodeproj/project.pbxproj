@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635E561327E3541600471088 /* QuackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E561227E3541600471088 /* QuackApp.swift */; };
+		635E561527E3541600471088 /* QuackDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E561427E3541600471088 /* QuackDocument.swift */; };
+		635E561727E3541600471088 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E561627E3541600471088 /* ContentView.swift */; };
+		635E561927E3541700471088 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635E561827E3541700471088 /* Assets.xcassets */; };
+		635E561C27E3541700471088 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635E561B27E3541700471088 /* Preview Assets.xcassets */; };
+		635E562827E3541700471088 /* QuackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E562727E3541700471088 /* QuackTests.swift */; };
+		635E563227E3541700471088 /* QuackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E563127E3541700471088 /* QuackUITests.swift */; };
+		635E563427E3541700471088 /* QuackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635E563327E3541700471088 /* QuackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635E562427E3541700471088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635E560727E3541600471088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635E560E27E3541600471088;
+			remoteInfo = Quack;
+		};
+		635E562E27E3541700471088 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635E560727E3541600471088 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635E560E27E3541600471088;
+			remoteInfo = Quack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635E560F27E3541600471088 /* Quack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635E561227E3541600471088 /* QuackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackApp.swift; sourceTree = "<group>"; };
+		635E561427E3541600471088 /* QuackDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackDocument.swift; sourceTree = "<group>"; };
+		635E561627E3541600471088 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		635E561827E3541700471088 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635E561B27E3541700471088 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		635E561D27E3541700471088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635E561E27E3541700471088 /* Quack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quack.entitlements; sourceTree = "<group>"; };
+		635E562327E3541700471088 /* QuackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635E562727E3541700471088 /* QuackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackTests.swift; sourceTree = "<group>"; };
+		635E562D27E3541700471088 /* QuackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		635E563127E3541700471088 /* QuackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackUITests.swift; sourceTree = "<group>"; };
+		635E563327E3541700471088 /* QuackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635E560C27E3541600471088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E562027E3541700471088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E562A27E3541700471088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635E560627E3541600471088 = {
+			isa = PBXGroup;
+			children = (
+				635E561127E3541600471088 /* Quack */,
+				635E562627E3541700471088 /* QuackTests */,
+				635E563027E3541700471088 /* QuackUITests */,
+				635E561027E3541600471088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635E561027E3541600471088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635E560F27E3541600471088 /* Quack.app */,
+				635E562327E3541700471088 /* QuackTests.xctest */,
+				635E562D27E3541700471088 /* QuackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635E561127E3541600471088 /* Quack */ = {
+			isa = PBXGroup;
+			children = (
+				635E561227E3541600471088 /* QuackApp.swift */,
+				635E561427E3541600471088 /* QuackDocument.swift */,
+				635E561627E3541600471088 /* ContentView.swift */,
+				635E561827E3541700471088 /* Assets.xcassets */,
+				635E561D27E3541700471088 /* Info.plist */,
+				635E561E27E3541700471088 /* Quack.entitlements */,
+				635E561A27E3541700471088 /* Preview Content */,
+			);
+			path = Quack;
+			sourceTree = "<group>";
+		};
+		635E561A27E3541700471088 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				635E561B27E3541700471088 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		635E562627E3541700471088 /* QuackTests */ = {
+			isa = PBXGroup;
+			children = (
+				635E562727E3541700471088 /* QuackTests.swift */,
+			);
+			path = QuackTests;
+			sourceTree = "<group>";
+		};
+		635E563027E3541700471088 /* QuackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				635E563127E3541700471088 /* QuackUITests.swift */,
+				635E563327E3541700471088 /* QuackUITestsLaunchTests.swift */,
+			);
+			path = QuackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635E560E27E3541600471088 /* Quack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635E563727E3541700471088 /* Build configuration list for PBXNativeTarget "Quack" */;
+			buildPhases = (
+				635E560B27E3541600471088 /* Sources */,
+				635E560C27E3541600471088 /* Frameworks */,
+				635E560D27E3541600471088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quack;
+			productName = Quack;
+			productReference = 635E560F27E3541600471088 /* Quack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635E562227E3541700471088 /* QuackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635E563A27E3541700471088 /* Build configuration list for PBXNativeTarget "QuackTests" */;
+			buildPhases = (
+				635E561F27E3541700471088 /* Sources */,
+				635E562027E3541700471088 /* Frameworks */,
+				635E562127E3541700471088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635E562527E3541700471088 /* PBXTargetDependency */,
+			);
+			name = QuackTests;
+			productName = QuackTests;
+			productReference = 635E562327E3541700471088 /* QuackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		635E562C27E3541700471088 /* QuackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635E563D27E3541700471088 /* Build configuration list for PBXNativeTarget "QuackUITests" */;
+			buildPhases = (
+				635E562927E3541700471088 /* Sources */,
+				635E562A27E3541700471088 /* Frameworks */,
+				635E562B27E3541700471088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635E562F27E3541700471088 /* PBXTargetDependency */,
+			);
+			name = QuackUITests;
+			productName = QuackUITests;
+			productReference = 635E562D27E3541700471088 /* QuackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635E560727E3541600471088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					635E560E27E3541600471088 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					635E562227E3541700471088 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 635E560E27E3541600471088;
+					};
+					635E562C27E3541700471088 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 635E560E27E3541600471088;
+					};
+				};
+			};
+			buildConfigurationList = 635E560A27E3541600471088 /* Build configuration list for PBXProject "Quack" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635E560627E3541600471088;
+			productRefGroup = 635E561027E3541600471088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635E560E27E3541600471088 /* Quack */,
+				635E562227E3541700471088 /* QuackTests */,
+				635E562C27E3541700471088 /* QuackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635E560D27E3541600471088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E561C27E3541700471088 /* Preview Assets.xcassets in Resources */,
+				635E561927E3541700471088 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E562127E3541700471088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E562B27E3541700471088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635E560B27E3541600471088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E561527E3541600471088 /* QuackDocument.swift in Sources */,
+				635E561327E3541600471088 /* QuackApp.swift in Sources */,
+				635E561727E3541600471088 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E561F27E3541700471088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E562827E3541700471088 /* QuackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635E562927E3541700471088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E563427E3541700471088 /* QuackUITestsLaunchTests.swift in Sources */,
+				635E563227E3541700471088 /* QuackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635E562527E3541700471088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635E560E27E3541600471088 /* Quack */;
+			targetProxy = 635E562427E3541700471088 /* PBXContainerItemProxy */;
+		};
+		635E562F27E3541700471088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635E560E27E3541600471088 /* Quack */;
+			targetProxy = 635E562E27E3541700471088 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		635E563527E3541700471088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		635E563627E3541700471088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		635E563827E3541700471088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quack/Quack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quack/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbillette.Quack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		635E563927E3541700471088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quack/Quack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quack/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbillette.Quack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		635E563B27E3541700471088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbillette.QuackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quack.app/Contents/MacOS/Quack";
+			};
+			name = Debug;
+		};
+		635E563C27E3541700471088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbillette.QuackTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quack.app/Contents/MacOS/Quack";
+			};
+			name = Release;
+		};
+		635E563E27E3541700471088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbillette.QuackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Quack;
+			};
+			name = Debug;
+		};
+		635E563F27E3541700471088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbillette.QuackUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Quack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635E560A27E3541600471088 /* Build configuration list for PBXProject "Quack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635E563527E3541700471088 /* Debug */,
+				635E563627E3541700471088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635E563727E3541700471088 /* Build configuration list for PBXNativeTarget "Quack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635E563827E3541700471088 /* Debug */,
+				635E563927E3541700471088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635E563A27E3541700471088 /* Build configuration list for PBXNativeTarget "QuackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635E563B27E3541700471088 /* Debug */,
+				635E563C27E3541700471088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635E563D27E3541700471088 /* Build configuration list for PBXNativeTarget "QuackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635E563E27E3541700471088 /* Debug */,
+				635E563F27E3541700471088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635E560727E3541600471088 /* Project object */;
+}
